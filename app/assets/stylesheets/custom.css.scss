@@ -1,3 +1,52 @@
 $navbar-default-bg: #991637;
 
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #44cccc;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-image: asset-url('dog.png');
+  background-size: cover;
+  background-position: center;
+  height: 25em;
+}
+
+.btn-xlarge {
+  font-size: 2em;
+}
+
+footer {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 1em;
+}
