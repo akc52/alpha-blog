@@ -47,16 +47,11 @@ footer a:hover {
   color: #222;
 }
 
-footer small {
-  float: left;
-}
-
 footer ul {
-  float: right;
   list-style: none;
 }
 
 footer ul li {
-  float: left;
+  display: inline-block;
   margin-left: 1em;
 }
