@@ -41,6 +41,27 @@ $navbar-default-bg: #991637;
   padding-left: 0;
 }
 
+ul.pagination {
+  margin: 1em auto;
+
+  a {
+    padding: 0.5em 0.8em;
+    border: 1px solid #eaeaea;
+
+    &:first-of-type, &:last-of-type {
+      border-radius: 0.05em;
+    }
+  }
+
+  a:hover {
+    text-decoration: none;
+    background: #eaeaea;
+  }
+  //li:not(.prev):not(.next) a{
+  //  border: 1px solid #eaeaea;
+  //}
+}
+
 footer {
   margin-top: 2em;
   padding-top: 2em;
