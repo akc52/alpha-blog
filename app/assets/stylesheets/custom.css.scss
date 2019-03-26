@@ -57,6 +57,10 @@ ul.pagination {
     text-decoration: none;
     background: #eaeaea;
   }
+
+  .disabled a {
+    opacity: 0.4;
+  }
   //li:not(.prev):not(.next) a{
   //  border: 1px solid #eaeaea;
   //}
