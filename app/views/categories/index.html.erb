@@ -6,7 +6,7 @@
       <li class="article-title">
         <div class="row mb-2">
           <div class="card col-md-4 offset-4 pt-2 pb-2">
-            <%= link_to "#{category.name}", categories_path(category) %>
+            <%= link_to "#{category.name}", category_path(category) %>
             <small><%= pluralize(category.articles.count, "article") %></small>
           </div>
         </div>
